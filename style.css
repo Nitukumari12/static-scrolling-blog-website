@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.box1{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+}
+.box1 > .nav {
+    width: 100%;
+    height: 15%;
+    background-color: transparent;
+}
+
+.nav > h1{
+    position: absolute;
+    left: 6%;
+    font-size: 55px;
+    color: orangered;
+}
+.nav > h4{
+    position: absolute;
+    left: 6%;
+    top: 8%;
+    color: orangered;
+    font-size: 20px;
+}
+
+.nav > .nav2{
+    width: 45%;
+    height: 15%;
+    background-color: transparent;
+    position: absolute;
+    left: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+}
+.nav > .icon{
+    width: 15%;
+    height: 15%;
+    background-color: transparent;
+    position: absolute;
+    right: 6%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon > .pic{
+    width: 10%;
+    height: 25%;
+}
+
+.box1 > h1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 55px;
+}
+
+.box1 > h6{
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 15px;
+   font-weight: 100; 
+   letter-spacing: 3px;
+}
+.box1 > .text{
+    width: 35%;
+    height: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 40%;
+    left: 6%;
+}
+
+.text > h1{
+    position: absolute;
+    top: 3%;
+    font-size: 40px;
+}
+
+.text > p{
+    position: absolute;
+    top: 17%;
+}
+.box1 > .pic{
+   width: 45%;
+   height: 55%;
+   background-color: aqua;
+   position: absolute;
+   right: 6%;
+   top: 35%;
+}
+.pic > .img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.box2{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.box2 > .pic{
+    width: 45%;
+    height: 80%;
+    background-color: rgb(185, 149, 100);
+    position: absolute;
+    left: 6%;
+    top: 110%;
+
+}
+
+.pic > .img{
+    width: 100%;
+    height: 100%;
+}
+
+.box2 > .text2{
+    width: 35%;
+    height: 70%;
+    background-color: transparent;
+    position: absolute;
+    right: 6%;
+    top: 115%;
+}
+
+.text2 > h1{
+    font-size: 40px;
+    position: absolute;
+    top: 5%;
+}
+
+.text2 > p{
+    position: absolute;
+    top: 17%;
+}
+
+.box3{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.box3 > .text3{
+    width:35%;
+    height: 60%;
+    background-color: transparent;
+    position: absolute;
+    top: 220%;
+    left: 6%;
+}
+
+.text3 > h1{
+    margin-top: 3%;
+    font-size: 40px;
+}
+
+.box3 > .pic{
+    width: 45%;
+    height: 70%;
+    background-color: aqua;
+    position: absolute;
+    top: 210%;
+    right: 6%;
+}
+
+.pic > .img{
+    width: 100%;
+    height: 100%;
+}
+
+.box4{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    /* display: flex; */
+}
+
+.box4 > .nav{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(4, 4, 32);
+    /* position: fixed; */
+}
+
+.nav > h2{
+    position: relative;
+    left: 6%;
+    color: white;
+    top: 26%;
+    font-size: 30px;
+}
+
+.nav > input{
+    width: 25%;
+    height: 30%;
+    position: relative;
+    left:60% ;
+    top: -8%;
+    border: 1px solid white;
+    background-color: transparent;
+    padding-left: 12px;
+}
+
+::placeholder{
+    color: white;
+}
+
+button{
+    width: 10%;
+    height: 32%;
+    position: relative;
+    left: 60%;
+    top: -8%;
+    background-color: orangered;
+    color: white;
+}
+
+.box4 > .box5{
+    width: 15%;
+    height: 40%;
+    /* background-color: aqua; */
+    position: relative;
+    top: 10%;
+    left: 6%;
+    font-size: 18px;
+}
+
+.box5 > h5{
+    line-height: 30px;
+    font-size: 19px;
+    font-weight: 300;
+    margin-left: 2%;
+}
+
+.box4 > .box6{
+    width: 15%;
+    height: 40%;
+    /* background-color: aqua; */
+    position: absolute;
+    top:335%;
+    left: 30%;
+    font-size: 18px;
+}
+
+.box6 > h5{
+    line-height: 30px;
+    font-size: 19px;
+    font-weight: 300;
+    margin-left: 2%;
+}
+
+.box4 > .box7{
+    width: 22%;
+    height: 40%;
+    /* background-color: aqua; */
+    position: relative;
+    top: -30%;
+    left: 55%;
+    font-size: 18px;
+}
+
+.box7 > h5{
+    line-height: 30px;
+    font-size: 19px;
+    font-weight: 300;
+    margin-left: 2%;
+}
